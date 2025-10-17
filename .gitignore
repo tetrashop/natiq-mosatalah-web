@@ -1,0 +1,5 @@
+.ssh/
+.npm/
+node_modules/
+*.log
+.env
