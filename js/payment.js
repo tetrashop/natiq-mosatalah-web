@@ -160,3 +160,6 @@ class NatiqPayment {
 
 // راه‌اندازی سیستم
 const paymentSystem = new NatiqPayment();
+
+// راه‌اندازی سیستم پرداخت - این خط حیاتی است!
+const paymentSystem = new NatiqPayment();
