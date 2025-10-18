@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">نطق مصطلح</string>
+    <string name="title_activity_main">نطق مصطلح</string>
+    <string name="package_name">com.tetrashop.natiqmosatalah</string>
+    <string name="custom_url_scheme">com.tetrashop.natiqmosatalah</string>
+</resources>
