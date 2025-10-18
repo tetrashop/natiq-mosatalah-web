@@ -381,5 +381,27 @@
             showAllPhrases();
         });
     </script>
+<script src="js/payment.js"></script>
 </body>
 </html>
+
+<script>
+    document.getElementById('credit').innerText = userCredit;
+}
+
+function useSearch() {
+    if (userCredit > 0) {
+        userCredit--;
+        localStorage.setItem('natiqCredit', userCredit);
+        updateCreditDisplay();
+        alert('جستجو انجام شد! اعتبار باقی‌مانده: ' + userCredit);
+        return true;
+    } else {
+        alert('اعتبار شما تمام شد! لطفاً شارژ کنید.');
+        return false;
+    }
+}
+
+// نمایش اعتبار اولیه
+updateCreditDisplay();
+</script>
