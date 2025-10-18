@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تست سیستم پرداخت</title>
+</head>
+<body>
+    <h1>تست سیستم پرداخت نطق مصطلح</h1>
+    <div id="test-result"></div>
+
+    <script src="js/payment.js"></script>
+    <script>
+    setTimeout(() => {
+        const result = document.getElementById('test-result');
+        if (typeof paymentSystem !== 'undefined') {
+            result.innerHTML = '<p style="color: green;">✅ سیستم پرداخت با موفقیت لود شد</p>';
+            result.innerHTML += '<p>اعتبار: ' + paymentSystem.credit + '</p>';
+        } else {
+            result.innerHTML = '<p style="color: red;">❌ سیستم پرداخت لود نشد</p>';
+        }
+    }, 1000);
+    </script>
+</body>
+</html>

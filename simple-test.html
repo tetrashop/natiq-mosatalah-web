@@ -1,0 +1,14 @@
+<html>
+<body>
+<script src="js/payment.js"></script>
+<script>
+setTimeout(() => {
+    if (typeof paymentSystem !== 'undefined') {
+        alert('✅ سیستم پرداخت کار می‌کند! اعتبار: ' + paymentSystem.credit);
+    } else {
+        alert('❌ سیستم پرداخت کار نمی‌کند');
+    }
+}, 1000);
+</script>
+</body>
+</html>
