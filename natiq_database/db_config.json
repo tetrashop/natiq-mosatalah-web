@@ -1,0 +1,10 @@
+{
+  "version": "2.0",
+  "system_level": "LOW",
+  "cache_size": 100,
+  "max_records": 5000,
+  "index_type": "simple",
+  "compression": "none",
+  "created": "Tue May  5 14:38:25 +0330 2026",
+  "last_optimized": "Tue May  5 14:38:25 +0330 2026"
+}
