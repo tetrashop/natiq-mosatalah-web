@@ -1,3 +1,4 @@
+"use strict";
 module.exports = async (req, res) => {
   const fs = require('fs');
   const html = fs.readFileSync('./index.html', 'utf-8');

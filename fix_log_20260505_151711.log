@@ -1,0 +1,19 @@
+[Tue May  5 15:17:11 +0330 2026] شروع اسکن
+    ✅ viewport به app.html اضافه شد
+    ✅ error handler به index.html اضافه شد
+    ✅ error handler به نطق_مصطلح_کامل.html اضافه شد
+    ✅ console.log در js/natiq_db.js غیرفعال شد
+    ✅ use strict به js/natiq_db.js اضافه شد
+    ✅ use strict به js/payment.js اضافه شد
+    ✅ use strict به api/ai_core.js اضافه شد
+    ✅ encoding به server.py اضافه شد
+    ✅ error handling به backup.sh اضافه شد
+    ✅ error handling به clean_db.sh اضافه شد
+    ✅ error handling به deploy.sh اضافه شد
+    ✅ error handling به generate_paper.sh اضافه شد
+    ✅ error handling به natiq-mosatalah-web.sh اضافه شد
+    ✅ error handling به natiq-mosatalah.sh اضافه شد
+    ✅ error handling به natiq_ai_core.sh اضافه شد
+    ✅ error handling به natiq_db_manager.sh اضافه شد
+    ✅ error handling به rebuild_db.sh اضافه شد
+    ✅ پورت‌های hardcoded در server.py اصلاح شد

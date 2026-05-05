@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail 2>/dev/null || true
 
 DB_FILE="natiq_database/natiq_phrases.json"
 

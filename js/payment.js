@@ -1,3 +1,4 @@
+"use strict";
 // سیستم مدیریت اعتبار و پرداخت - نسخه اصلاح شده
 class NatiqPayment {
     constructor() {

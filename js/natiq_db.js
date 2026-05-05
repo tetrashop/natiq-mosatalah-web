@@ -1,3 +1,4 @@
+"use strict";
 /* دیتابیس نطق مصطلح - خودکار */
 /* تاریخ: Tue May  5 14:38:24 +0330 2026 */
 /* سطح سیستم: LOW */
@@ -72,4 +73,4 @@ function getPhraseCount() {
     return Object.keys(NATIQ_DB).length;
 }
 
-console.log("🗄️ نطق مصطلح: " + getPhraseCount() + " عبارت بارگذاری شد");
+//console.log("🗄️ نطق مصطلح: " + getPhraseCount() + " عبارت بارگذاری شد");

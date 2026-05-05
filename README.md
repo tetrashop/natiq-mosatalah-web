@@ -122,3 +122,14 @@ API
 ساخته شده با ❤️ توسط تتراشاپ | ما شاء الله
 
 *آخرین بروزرسانی: '"$(date +'%Y-%m-%d %H:%M')"'
+
+---
+
+## 🏆 باگ‌های شکار شده (2026-05-05)
+
+- **کل**: 18 | **رفع شده**: 18
+- ✅ Error handling در اسکریپت‌ها
+- ✅ Use strict در JavaScript
+- ✅ Exception handling در Python
+- ✅ charset و viewport در HTML
+- ✅ .gitignore

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
 import chess
@@ -68,6 +69,6 @@ class APIHandler(BaseHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
         self.end_headers()
 
-print("🚀 Starting Natiq Backend on http://localhost:8000")
-server = HTTPServer(('localhost', 8000), APIHandler)
+print("🚀 Starting Natiq Backend on http://localhost:${PORT:-8000}")
+server = HTTPServer(('localhost', ${PORT:-8000}), APIHandler)
 server.serve_forever()

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail 2>/dev/null || true
 
 # اسکریپت توسعه نطق مصطلح - نسخه ساده و بدون خطا
 LOG_FILE="natiq_dev.log"

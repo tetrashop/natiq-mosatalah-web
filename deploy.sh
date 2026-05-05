@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail 2>/dev/null || true
 echo ""
 echo "╔══════════════════════════════════════════════╗"
 echo "║  🚀 NATIQ AUTO-DEPLOY → GitHub → Vercel    ║"

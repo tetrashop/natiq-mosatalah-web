@@ -196,6 +196,7 @@
     </div>
 
     <script>
+window.onerror=function(m,u,l){console.error("Error: "+m+" at "+u+":"+l);return false;};
         // داده‌های کامل نطق مصطلح
         const natiqData = {
             "estelahat": {
@@ -384,11 +385,13 @@
         });
     </script>
 <script src="js/payment.js"></script>
-<script>if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js")}</script>
+<script>
+window.onerror=function(m,u,l){console.error("Error: "+m+" at "+u+":"+l);return false;};if("serviceWorker" in navigator){navigator.serviceWorker.register("/sw.js")}</script>
 </body>
 </html>
 
 <script>
+window.onerror=function(m,u,l){console.error("Error: "+m+" at "+u+":"+l);return false;};
     document.getElementById('credit').innerText = userCredit;
 }
 
